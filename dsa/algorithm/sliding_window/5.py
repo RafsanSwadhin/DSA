@@ -8,6 +8,7 @@ cur = best = sum(a[:k])
 # Iterate through the array, updating the current sum and the best sum
 for r in range(k, len(a)):
     cur = cur + a[r] - a[r - k]  # Slide the window by adding and subtracting elements
+               #a[5]   a[5-5]      
     best = max(best, cur)  # Update the best sum if the current sum is larger
 
 # Print the maximum sum of any subarray of length 'k'
