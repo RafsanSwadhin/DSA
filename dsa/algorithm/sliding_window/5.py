@@ -4,7 +4,7 @@ k = 5
 
 # Calculate the sum of the first 'k' elements and initialize the best sum
 cur = best = sum(a[:k])
-
+print(best,cur)
 # Iterate through the array, updating the current sum and the best sum
 for r in range(k, len(a)):
     cur = cur + a[r] - a[r - k]  # Slide the window by adding and subtracting elements
