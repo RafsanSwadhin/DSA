@@ -5,6 +5,7 @@
     / \   /  \
    5  12  14  20
 '''
+#pre-order traversal
 class TreeNode:
     def __init__(self, val):
         self.val = val
