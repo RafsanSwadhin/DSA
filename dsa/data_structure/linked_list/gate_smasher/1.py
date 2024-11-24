@@ -18,8 +18,9 @@ print(node2)
 
 #printig the linked list 
 current =  node1
-
 while current is not None:
+
     print(current.data, end="->")
     current = current.next
 print("None")
+

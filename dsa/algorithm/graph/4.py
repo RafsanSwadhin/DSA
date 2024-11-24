@@ -3,7 +3,7 @@ def dfs(graph,start):
     print(start)
 
     if len(graph[start]) == 0:
-        return
+        return 
     for val in graph[start]:
         dfs(graph,val)
 

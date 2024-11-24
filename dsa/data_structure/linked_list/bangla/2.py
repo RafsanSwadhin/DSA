@@ -13,5 +13,6 @@ _6thNode = Node("B")
 print(_1stNode.data) #A
 print(_1stNode.next) #None
 _1stNode.next = _2ndNode
+print(_1stNode.next)
 print(_1stNode.next.data)
 print(_2ndNode.data)
